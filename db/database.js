@@ -15,7 +15,7 @@ knex.schema.createTable('crud',(table)=>{
     table.integer('age')
 })
 .then(()=>{
-    // console.log('table created successfullly......');
+    console.log('table created successfullly......');
 }).catch(()=>{
     console.log('table allready exist.....');
 })
